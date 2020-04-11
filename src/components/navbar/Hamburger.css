@@ -40,9 +40,10 @@
 }
 
 .hamburger-inner {
-  display: block;
+  display: flex;
   top: 50%;
   margin-top: -2px;
+  justify-content: flex-end;
 }
 .hamburger-inner,
 .hamburger-inner::before,
@@ -56,6 +57,11 @@
   transition-duration: 0.15s;
   transition-timing-function: ease;
 }
+.hamburger-inner {
+  width: 30px;
+  text-align: right;
+}
+
 .hamburger-inner::before,
 .hamburger-inner::after {
   content: '';
@@ -661,6 +667,7 @@
 }
 
 .hamburger--spin.is-active .hamburger-inner {
+  width: 40px;
   transform: rotate(225deg);
   transition-delay: 0.12s;
   transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
