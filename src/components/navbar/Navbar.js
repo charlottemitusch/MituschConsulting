@@ -44,8 +44,8 @@ function Navbar() {
         onClick={() => toggleNav()}
         className={
           navBarOpen
-            ? 'menuButton hamburger hamburger--collapse is-active'
-            : 'menuButton hamburger hamburger--collapse'
+            ? 'menuButton hamburger hamburger--spin is-active'
+            : 'menuButton hamburger hamburger--spin'
         }
       >
         <span className="hamburger-box">
