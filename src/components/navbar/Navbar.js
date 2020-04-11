@@ -1,18 +1,18 @@
-import React, { useState } from 'react'
-import './Navbar.css'
-import icon from '../../assets/icons/icon.png'
-import './Hamburger.css'
-import { NavLink } from 'react-router-dom'
+import React, { useState } from "react";
+import "./Navbar.css";
+import icon from "../../assets/icons/logo2.png";
+import "./Hamburger.css";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
-  const [navBarOpen, setNavbarOpen] = useState(false)
+  const [navBarOpen, setNavbarOpen] = useState(false);
   const toggleNav = () => {
     // Dette kan du gjøre med klassenavn i stedet som jeg har gjort nedenfor med hamburgeren
     navBarOpen
-      ? (document.getElementById('myNav').style.left = '100%')
-      : (document.getElementById('myNav').style.left = '0%')
-    setNavbarOpen(!navBarOpen)
-  }
+      ? (document.getElementById("myNav").style.left = "100%")
+      : (document.getElementById("myNav").style.left = "0%");
+    setNavbarOpen(!navBarOpen);
+  };
 
   return (
     <div className="container">
@@ -44,8 +44,8 @@ function Navbar() {
         onClick={() => toggleNav()}
         className={
           navBarOpen
-            ? 'menuButton hamburger hamburger--spin is-active'
-            : 'menuButton hamburger hamburger--spin'
+            ? "menuButton hamburger hamburger--spin is-active"
+            : "menuButton hamburger hamburger--spin"
         }
       >
         <span className="hamburger-box">
@@ -53,7 +53,7 @@ function Navbar() {
         </span>
       </div>
     </div>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
