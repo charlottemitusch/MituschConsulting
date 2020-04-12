@@ -1,5 +1,7 @@
 import React from "react";
-import icon from "../src/assets/icons/bg.png";
+
+import icon2 from "../src/assets/icons/bilde1.png";
+
 import "./App.css";
 
 function App() {
@@ -63,12 +65,11 @@ function App() {
   };
   return (
     <div className="hjem">
-      <img src={icon} alt="" id="bg-image" />
       <header className="hjem-header">
         <h2>CHARLOTTE MITUSCH</h2>
         <h1>
           <a
-            href=""
+            href=" "
             class="typewrite"
             data-period="2000"
             data-type='[ "BUILDING A PORTFOLIO", "PROJECT BY PROJECT"]'
@@ -77,19 +78,71 @@ function App() {
           </a>
         </h1>
       </header>
+      <hr />
       <div className="innhold">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla sed
-          laborum officiis quo? Id, praesentium accusamus omnis exercitationem
-          aut unde quam minus eum culpa repellendus assumenda ut aliquid
-          quibusdam dolore.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla sed
-          laborum officiis quo? Id, praesentium accusamus omnis exercitationem
-          aut unde quam minus eum culpa repellendus assumenda ut aliquid
-          quibusdam dolore.
-        </p>
+        <h2 className="title">
+          <small>WELCOME TO</small>
+        </h2>
+        <h2 className="undertittel"> MITUSCH CONSULTING</h2>
+
+        <hr id="margin" />
+
+        <div className="container1">
+          {" "}
+          <img src={icon2} alt="" className="about" />
+          <div className="box1">
+            <p className="top">MEET ME</p>
+            <p className="body">
+              Get to know the people who dedicated their careers to family law
+              and who make it all happen for our clients.
+            </p>
+            <p className="link">
+              {" "}
+              <a href="/about/">
+                ABOUT
+                <i className="large material-icons">keyboard_arrow_right</i>
+              </a>
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div className="container2">
+          {" "}
+          <img src={icon2} alt="" className="about1" />
+          <div className="box2">
+            <p className="top">EXPLORE PROJECTS</p>
+            <p className="body">
+              Get to know the people who dedicated their careers to family law
+              and who make it all happen for our clients.
+            </p>
+            <p className="link">
+              {" "}
+              <a href="/projects/">
+                PROJECTS
+                <i className="large material-icons">keyboard_arrow_right</i>
+              </a>
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div className="container1">
+          {" "}
+          <img src={icon2} alt="" className="about" />
+          <div className="box1">
+            <p className="top">MEET ME</p>
+            <p className="body">
+              Get to know the people who dedicated their careers to family law
+              and who make it all happen for our clients.
+            </p>
+            <p className="link">
+              {" "}
+              <a href="/about/">
+                ABOUT
+                <i className="large material-icons">keyboard_arrow_right</i>
+              </a>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
