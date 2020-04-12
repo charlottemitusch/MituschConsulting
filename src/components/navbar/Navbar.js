@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import icon from "../../assets/icons/logo2.png";
+import ico from "../../assets/icons/bg.png";
 import "./Hamburger.css";
 import { NavLink } from "react-router-dom";
 
@@ -18,8 +19,8 @@ function Navbar() {
     <div className="container">
       <img className="hei" src={icon} alt="" />
 
-      <div id="myNav" class="overlay">
-        <div class="overlay-content">
+      <div id="myNav" className="overlay">
+        <div className="overlay-content">
           <nav>
             <ul>
               <li>

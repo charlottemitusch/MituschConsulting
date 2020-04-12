@@ -1,6 +1,9 @@
 body {
     font-family: "Josefin sans", sans-serif;
-    background-color: #1a1919;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .container {
@@ -43,10 +46,14 @@ body {
 .overlay a {
     padding: 8px;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 45px;
     color: #818181;
     display: block;
     transition: 0.3s;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    letter-spacing: 0.3em;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 .overlay a:hover,

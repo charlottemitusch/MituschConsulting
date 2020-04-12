@@ -1,5 +1,5 @@
 import React from "react";
-
+import icon from "../src/assets/icons/bg.png";
 import "./App.css";
 
 function App() {
@@ -63,6 +63,7 @@ function App() {
   };
   return (
     <div className="hjem">
+      <img src={icon} alt="" id="bg-image" />
       <header className="hjem-header">
         <h2>CHARLOTTE MITUSCH</h2>
         <h1>
