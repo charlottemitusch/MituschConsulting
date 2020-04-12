@@ -17,23 +17,24 @@ function Navbar() {
   return (
     <div className="container">
       <img className="hei" src={icon} alt="" />
+
       <div id="myNav" class="overlay">
         <div class="overlay-content">
           <nav>
             <ul>
               <li>
                 <NavLink onClick={() => toggleNav()} to="/about">
-                  About me
+                  ABOUT ME
                 </NavLink>
               </li>
               <li>
                 <NavLink onClick={() => toggleNav()} to="/projects">
-                  Projects
+                  PROJECTS
                 </NavLink>
               </li>
               <li>
                 <NavLink onClick={() => toggleNav()} to="/contact">
-                  Contact
+                  CONTACT
                 </NavLink>
               </li>
             </ul>

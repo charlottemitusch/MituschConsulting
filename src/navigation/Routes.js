@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 
-import { Switch, Route } from 'react-router-dom'
+import { Switch, Route } from "react-router-dom";
 const Routes = () => {
   return (
     <Switch>
@@ -14,18 +14,18 @@ const Routes = () => {
         <Contact />
       </Route>
     </Switch>
-  )
-}
-export default Routes
+  );
+};
+export default Routes;
 
 function Contact() {
-  return <h2>Contact</h2>
+  return <h2>Contact</h2>;
 }
 
 function About() {
-  return <h2>About me</h2>
+  return <h2>H</h2>;
 }
 
 function Projects() {
-  return <h2>Projects</h2>
+  return <h2>Projects</h2>;
 }

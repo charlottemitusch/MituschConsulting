@@ -76,6 +76,20 @@ function App() {
           </a>
         </h1>
       </header>
+      <div className="innhold">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla sed
+          laborum officiis quo? Id, praesentium accusamus omnis exercitationem
+          aut unde quam minus eum culpa repellendus assumenda ut aliquid
+          quibusdam dolore.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla sed
+          laborum officiis quo? Id, praesentium accusamus omnis exercitationem
+          aut unde quam minus eum culpa repellendus assumenda ut aliquid
+          quibusdam dolore.
+        </p>
+      </div>
     </div>
   );
 }
