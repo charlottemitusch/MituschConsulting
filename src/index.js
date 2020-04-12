@@ -13,7 +13,6 @@ ReactDOM.render(
     <Router>
       <Navbar />
       <App />
-
       <Routes />
       <Navbar2 />
     </Router>

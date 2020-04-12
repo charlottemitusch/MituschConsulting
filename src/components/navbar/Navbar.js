@@ -24,7 +24,11 @@ function Navbar() {
           <nav>
             <ul>
               <li>
-                <NavLink onClick={() => toggleNav()} to="/about">
+                <NavLink
+                  onClick={() => toggleNav()}
+                  to="/about"
+                  activeClassName="active"
+                >
                   ABOUT ME
                 </NavLink>
               </li>
