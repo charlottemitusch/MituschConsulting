@@ -1,5 +1,5 @@
 import React from "react";
-import icon from "../src/assets/icons/meetme.png";
+
 import icon2 from "../src/assets/icons/bilde1.png";
 
 import "./App.css";
