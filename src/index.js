@@ -12,7 +12,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Navbar />
-      <App />
+
       <Routes />
       <Navbar2 />
     </Router>

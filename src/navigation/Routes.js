@@ -1,6 +1,7 @@
 import React from "react";
 import About from "../pages/About";
 import Projects from "../pages/Projects";
+import App from "../App";
 
 import { Switch, Route } from "react-router-dom";
 const Routes = () => {
@@ -14,6 +15,9 @@ const Routes = () => {
       </Route>
       <Route path="/contact">
         <Contact />
+      </Route>
+      <Route path="/">
+        <App />
       </Route>
     </Switch>
   );

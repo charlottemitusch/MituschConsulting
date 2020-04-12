@@ -17,7 +17,9 @@ function Navbar() {
 
   return (
     <div className="container">
-      <img className="hei" src={icon} alt="" />
+      <NavLink to="/">
+        <img className="hei" src={icon} alt="" />
+      </NavLink>
 
       <div id="myNav" className="overlay">
         <div className="overlay-content">
