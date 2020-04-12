@@ -1,160 +1,92 @@
 html,
 body {
-    height: 100%;
-    font-family: "Josefin Sans", sans-serif;
+  height: 100%;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 #bg-image {
-    opacity: 0.9;
+  opacity: 0.9;
 }
 
 .App {
-    text-align: center;
+  text-align: center;
 }
 
 .hjem-header {
-    background-color: #111;
-    min-height: 65vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-    margin-top: 200px;
+  background-color: #111;
+  min-height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-top: 200px;
 }
 
 body {
-    background-color: #111;
-    text-align: center;
-    color: #fff;
+  background-color: #111;
+  text-align: center;
+  color: #fff;
 }
 
 * {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 h2 {
-    font-size: 36px;
-    font-weight: 200;
-    opacity: 0.5;
-    letter-spacing: 0.3em;
+  font-size: 36px;
+  font-weight: 200;
+  opacity: 0.5;
+  letter-spacing: 0.3em;
 }
 
 h1 {
-    font-size: 64px;
-    font-weight: 300;
-    margin-top: 5px;
-    letter-spacing: 0.3em;
+  font-size: 64px;
+  font-weight: 300;
+  margin-top: 5px;
+  letter-spacing: 0.3em;
 }
 
 .innhold {
-    padding-bottom: 200px;
-    padding-top: 50px;
+  padding-bottom: 200px;
+  padding-top: 50px;
 }
 
 .bg-image {
-    /* Full height */
-    height: 50%;
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  /* Full height */
+  height: 50%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .title {
-    font-size: 26px;
+  font-size: 26px;
 }
 
 .undertittel {
-    margin-top: 0;
-    font-weight: 600;
-    color: white;
-    opacity: 1;
-    font-size: 26;
+  margin-top: 0;
+  font-weight: 600;
+  color: white;
+  opacity: 1;
+  font-size: 26;
 }
 
 hr {
-    border: 0.8px solid white;
-    opacity: 0.1;
-    width: 5%;
+  border: 0.8px solid white;
+  opacity: 0.1;
+  width: 5%;
 }
 
 hr#margin {
-    margin-bottom: 200px;
+  margin-bottom: 200px;
 }
 
 * {
-    box-sizing: border-box;
-}
-
-div .box1 {
-    border: solid rgba(255, 255, 255, 0.1);
-    border-width: thin;
-    margin-left: 450px;
-    margin-right: 500px;
-    max-width: 400px;
-    max-height: 300px;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.3);
-    letter-spacing: 0.2em;
-    line-height: 1.6;
-    margin-bottom: 100px;
-    margin-top: 100px;
-    position: realtive;
-}
-
-p.top {
-    color: white;
-    font-weight: 600;
-    font-size: 16px;
-}
-
-p.body {
-    margin-bottom: 50px;
-    opacity: 0.3;
-    font-size: 14px;
-}
-
-p.link {
-    font-weight: 600;
-}
-
-div.box1,
-.box2 p {
-    text-align: left;
-}
-
-img.about {
-    width: 450px;
-    height: 338px;
-    margin: -50px -10px;
-    position: absolute;
-    float: left;
-}
-
-div .box2 {
-    border: solid rgba(255, 255, 255, 0.1);
-    border-width: thin;
-    margin-left: 750px;
-    max-width: 400px;
-    max-height: 300px;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.3);
-    letter-spacing: 0.2em;
-    line-height: 1.6;
-    margin-bottom: 100px;
-    margin-top: 100px;
-    position: realtive;
-}
-
-img.about1 {
-    width: 450px;
-    height: 338px;
-    margin: -50px -260px;
-    position: absolute;
-    float: left;
+  box-sizing: border-box;
 }

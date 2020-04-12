@@ -1,7 +1,7 @@
-import React from "react";
-import icon from "../src/assets/icons/bg.png";
+import React from 'react'
+import icon from '../src/assets/icons/bg.png'
 
-function Bakgrunn() {
+const Bakgrunn = () => {
   return (
     <div>
       <img
@@ -13,7 +13,7 @@ function Bakgrunn() {
       <div class="center-screen">
         <div class="elm-with-fade-in fade-in">
           <h1 class="max-1820 heading-60 ">
-            <small>CHARLOTTE MITUSCH</small>{" "}
+            <small>CHARLOTTE MITUSCH</small>{' '}
             <a
               class="typewrite"
               data-period="2000"
@@ -24,8 +24,8 @@ function Bakgrunn() {
           </h1>
         </div>
       </div>
-      <div class="arrow bounce"></div>{" "}
+      <div class="arrow bounce"></div>{' '}
     </div>
-  );
+  )
 }
-export default Bakgrunn;
+export default Bakgrunn
