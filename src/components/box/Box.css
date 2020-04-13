@@ -1,72 +1,77 @@
 .link {
-  display: flex;
+    display: flex;
 }
+
 .link-text {
-  font-weight: 600;
+    font-weight: 600;
 }
+
 .link-icon {
-  margin-top: 14px;
+    margin-top: 14px;
 }
 
 .box-container {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
 }
+
 .box-inner-container {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  margin-right: 250px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-right: 250px;
 }
 
 .about {
-  width: 450px;
-  height: 338px;
-  position: absolute;
-  right: -250px;
-  top: -50px;
+    width: 450px;
+    height: 338px;
+    position: absolute;
+    right: -250px;
+    top: -50px;
 }
 
 .box {
-  border: solid rgba(255, 255, 255, 0.1);
-  border-width: thin;
-  width: 400px;
-  height: 250px;
-  padding: 10px;
-  background-color: rgba(0, 0, 0, 0.3);
-  letter-spacing: 0.2em;
-  line-height: 1.6;
-  position: realtive;
+    border: solid rgba(255, 255, 255, 0.1);
+    border-width: thin;
+    width: 400px;
+    height: 250px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.2em;
+    line-height: 1.6;
+    position: realtive;
 }
 
 @media (max-width: 800px) {
-  .box-inner-container {
-    margin-right: 0px;
-  }
-  .box1 {
-    width: 450px;
-    height: 338px;
-    margin: 0px;
-  }
-  .about {
-    right: -0px;
-    top: -0px;
-  }
-  .top {
-    margin-top: 60px;
-  }
+    .box-inner-container {
+        margin-right: 0px;
+    }
+    .box {
+        width: 450px;
+        height: 338px;
+        margin: 0px;
+    }
+    .about {
+        right: -0px;
+        top: -0px;
+    }
+    .top {
+        margin-top: 60px;
+    }
 }
 
 p.top {
-  color: white;
-  font-weight: 600;
-  font-size: 16px;
-  text-align: left;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: left;
 }
 
 p.body {
-  margin-bottom: 50px;
-  opacity: 0.3;
-  font-size: 14px;
-  text-align: left;
+    margin-bottom: 50px;
+    opacity: 0.3;
+    font-size: 14px;
+    text-align: left;
 }

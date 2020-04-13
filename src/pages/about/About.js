@@ -1,15 +1,16 @@
 import React from 'react'
+import './About.css'
+import bilde from '../../assets/icons/oslo4.png'
+import Bakgrunn from '../../components/background/Bakgrunn'
 
 const About = () => {
   return (
     <div>
-      <h1>ABOUT ME</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
-        accusantium adipisci, ea excepturi numquam vero corrupti aliquid at
-        magni ipsum? Commodi, et cupiditate itaque sint a sit quia tempora
-        maxime.
-      </p>
+      <Bakgrunn
+        icon={bilde}
+        header={'GET TO KNOW ME'}
+        text={'["REACH OUT IF YOU LIKE WHAT YOU SEE", "OR HAVE ANY QUESTIONS"]'}
+      />{' '}
     </div>
   )
 }

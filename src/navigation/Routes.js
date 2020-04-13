@@ -2,6 +2,7 @@ import React from 'react'
 import About from '../pages/about/About'
 import Projects from '../pages/projects/Projects'
 import App from '../App'
+import Contact from '../pages/contact/Contact'
 
 import { Switch, Route } from 'react-router-dom'
 const Routes = () => {
@@ -9,21 +10,17 @@ const Routes = () => {
     <Switch>
       <Route path="/about">
         <About />
-      </Route>
+      </Route>{' '}
       <Route path="/projects">
         <Projects />
-      </Route>
+      </Route>{' '}
       <Route path="/contact">
         <Contact />
-      </Route>
+      </Route>{' '}
       <Route path="/">
         <App />
-      </Route>
+      </Route>{' '}
     </Switch>
   )
 }
 export default Routes
-
-function Contact() {
-  return <h2>Contact</h2>
-}
