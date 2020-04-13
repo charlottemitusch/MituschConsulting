@@ -49,7 +49,7 @@ const About = () => {
             <Hobby
               name={'TENNIS'}
               text={
-                'My hobby is playing tennis. I like it because you can play it with almost anyone and anywhere. I play tennis twice a week at the Smash tennis center near my school. I’ve played it on my own for four years, but regularly for only two years. I play tennis around the year in and outdoors with my friends and relatives. It’s easy to start tennis. You can sign up for classes at the nearby tennis center where you can usually borrow a racquet and tennis balls. Tennis is easy to learn and fun to play. You can play it in groups of four or with your friend. You can play tennis in many ways: you can play intensely and get in shape or you cannd'
+                'My hobby is playing tennis. I like it because you can play it withign up for classes at the nearby tennis center where you can usually borrow a racquet and tennis balls. Tennis is easy to learn and fun to play. You can play it in groups of four or with your friend. You can play tennis in many ways: you can play intensely and get in shape or you cannd'
               }
             />
             <div className="VL"></div>
@@ -62,7 +62,7 @@ const About = () => {
             <Hobby
               name={'TRAVELS'}
               text={
-                'My hobby is playing tennis. I like it because you can play it with almost anyone and anywhere. sh tennis center near my school. I’ve played it on my own for four years, but regularly for only two years. I play tennis around the year in and outdoors with my friends and relatives. It’s easy to start tennis. You can sign up for classes at the nearby tennis center where you can usually borrow a racquet and tennis balls. Tennis is easy to learn and fun to play. You can play it in groups of four or with your friend. You can play tennis in many ways: you can play intensely and get in shape or you cannd discuss with your part'
+                'My hobby is h almost any to start tennis. You can sign up for classes at the nearby tennis center where you can usually borrow a racquet and tennis balls. Tennis is easy to learn and fun to play. You can play it in groups of four or with your friend. You can play tennis in many ways: you can play intensely and get in shape or you cannd discuss with your part'
               }
             />
           </div>
