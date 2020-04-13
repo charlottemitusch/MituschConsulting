@@ -38,13 +38,55 @@ section {
     align-items: center;
     background-color: rgb(1, 1, 1);
     padding: 1rem 12rem 4rem 15rem;
-    border-style: solid;
-    border-width: 0px 0px 2px 0px;
-    border-color: rgba(255, 255, 255, 0.1);
 }
 
 p.about-text {
     font-size: 20px;
     letter-spacing: 0.2em;
     line-height: 2;
+}
+
+.img-section {
+    height: 200px;
+    border-style: solid;
+    border-width: 2px 0px 2px 0px;
+    border-color: rgba(39, 38, 38, 0.2);
+    background-color: rgba(3, 3, 3, 0.904);
+}
+
+.four-boxes {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    align-content: center;
+}
+
+.four-boxes li {
+    width: 25%;
+    height: 200px;
+}
+
+.box-content {
+    margin-top: 20%;
+}
+
+.box-content span {
+    display: block;
+}
+
+.box-title {
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0.3rem;
+}
+
+.box-detail {
+    opacity: 0.2;
+    margin-top: 10px;
+}
+
+.vl {
+    border-left: 2px solid rgb(255, 255, 255, 0.1);
+    height: 40px;
+    margin-top: 80px;
 }

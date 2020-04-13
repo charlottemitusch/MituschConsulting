@@ -21,6 +21,36 @@ const About = () => {
             situations will benefit most from our law firm.
           </p>
         </div>
+        <div className="img-section four-boxes">
+          <ul className="img-boxes"></ul>
+          <li>
+            <div className="box-content">
+              <span className="box-title">1996</span>
+              <span className="box-detail">YEAR BORN</span>
+            </div>
+          </li>
+          <div className="vl"></div>
+          <li>
+            <div className="box-content">
+              <span className="box-title">1996</span>
+              <span className="box-detail">YEAR BORN</span>
+            </div>
+          </li>
+          <div className="vl"></div>
+          <li>
+            <div className="box-content">
+              <span className="box-title">1996</span>
+              <span className="box-detail">YEAR BORN</span>
+            </div>
+          </li>
+          <div className="vl"></div>
+          <li>
+            <div className="box-content">
+              <span className="box-title">1996</span>
+              <span className="box-detail">YEAR BORN</span>
+            </div>
+          </li>
+        </div>
       </section>
     </div>
   )
