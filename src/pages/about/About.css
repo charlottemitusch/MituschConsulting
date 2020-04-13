@@ -66,27 +66,56 @@ p.about-text {
     height: 200px;
 }
 
-.box-content {
-    margin-top: 20%;
-}
-
-.box-content span {
-    display: block;
-}
-
-.box-title {
-    font-size: 30px;
-    font-weight: 400;
-    letter-spacing: 0.3rem;
-}
-
-.box-detail {
-    opacity: 0.2;
-    margin-top: 10px;
-}
-
 .vl {
     border-left: 2px solid rgb(255, 255, 255, 0.1);
     height: 40px;
     margin-top: 80px;
+}
+
+.hobbies {
+    border-style: solid;
+    border-width: 2px 0px 2px 0px;
+    border-color: rgba(39, 38, 38, 0.2);
+    background-color: rgb(1, 1, 1);
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.hobbies-content h2 {
+    opacity: 1;
+    margin-bottom: 15px;
+}
+
+.hobbies-content h3 {
+    opacity: 0.4;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.left-center-text {
+    padding-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+img.tennis-img {
+    padding-right: 10rem;
+    height: 400px;
+    object-fit: contain;
+}
+
+.VL {
+    border-left: 2px solid rgb(255, 255, 255, 0.1);
+    height: 400px;
+}
+
+.right-center-text {
+    padding-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+img.tennis-img1 {
+    padding-left: 10rem;
+    height: 400px;
+    object-fit: contain;
 }

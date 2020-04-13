@@ -1,0 +1,23 @@
+.hobbies-text p {
+    text-align: left;
+    letter-spacing: 0.2em;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.hobbies-text span {
+    text-align: left;
+    letter-spacing: 0.2em;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 1.8;
+}
+
+.hobbies-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 50%;
+    padding-left: 5rem;
+    object-fit: contain;
+}
