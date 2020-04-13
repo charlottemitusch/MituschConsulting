@@ -5,7 +5,7 @@ import Bakgrunn from '../../components/background/Bakgrunn'
 
 const Contact = () => {
   return (
-    <div>
+    <div className="">
       <div className="contact-background">
         <Bakgrunn
           icon={bilde}
