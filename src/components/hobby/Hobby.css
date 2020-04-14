@@ -18,7 +18,16 @@
     display: flex;
     flex-direction: column;
     text-align: left;
-    width: 50%;
+    width: 100%;
+    min-width: 400px;
     padding-left: 5rem;
     object-fit: contain;
+}
+@media (max-width: 1200px) {
+    .hobbies-text p {
+        text-align: center;
+    }
+    .hobbies-text {
+        padding: 0rem 1rem 0rem 1rem;
+    }
 }
