@@ -2,7 +2,7 @@ import React from 'react'
 import './Projects.css'
 import Project from '../../components/project/Project'
 import icon from '../../assets/icons/prosjekt1.png'
-import img from '../../assets/icons/prosjekt2.png'
+import img from '../../assets/icons/google.png'
 
 const Projects = () => {
     return (
@@ -16,12 +16,14 @@ const Projects = () => {
                 </header>
             </section>
             <section className="scroll">
-                <div className="project">
-                    <div className="prosjekt-box">
-                        <Project img={icon} name={'dette er en test'} />
+                <div className="project-box">
+                    <Project img={icon} name={'dette er en test'} />
 
-                        <Project img={img} name={'tster ut igjen'} />
-                    </div>
+                    <Project img={img} name={'tster ut igjen'} />
+
+                    <Project img={icon} name={'dette er en test'} />
+
+                    <Project img={img} name={'tster ut igjen'} hr={'btm'} />
                 </div>
             </section>
         </div>

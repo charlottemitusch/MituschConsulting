@@ -43,12 +43,11 @@ h2.about-text {
 
 .project-box {
     display: flex;
-    background-color: black;
-}
-
-.project-box {
-    display: flex;
     flex-direction: row;
-    height: 700px;
+    justify-content: center;
     background-color: black;
+    padding: 10rem 2rem 4rem 2rem;
+    flex-wrap: wrap;
+    margin-top: -10px;
+    margin-left: -10px;
 }
