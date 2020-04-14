@@ -119,3 +119,27 @@ img.tennis-img1 {
     height: 400px;
     object-fit: contain;
 }
+
+@media (max-width: 1200px) {
+    .hobbies-text {
+        text-align: center;
+    }
+    .VL {
+        height: 10px;
+        margin: 2rem 1rem 2rem 1rem;
+        border-top: 2px solid rgb(255, 255, 255, 0.1);
+        border-left: none;
+    }
+    .left-center-text {
+        flex-direction: column;
+    }
+    .right-center-text {
+        flex-direction: column-reverse;
+    }
+    img.tennis-img {
+        padding: 0;
+    }
+    img.tennis-img1 {
+        padding: 0;
+    }
+}
