@@ -35,15 +35,20 @@ section {
     top: 0;
 }
 
-.prosjekt-title {
-    height: 700px;
-    display: flex;
-    justify-content: row;
-    background-color: rgb(1, 1, 1);
-}
-
 h2.about-text {
     font-size: 20px;
     letter-spacing: 0.2em;
     line-height: 2;
+}
+
+.project-box {
+    display: flex;
+    background-color: black;
+}
+
+.project-box {
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    background-color: black;
 }
