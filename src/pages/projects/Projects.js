@@ -21,36 +21,39 @@ const Projects = () => {
                         <h3>EXPLORE</h3>
                         <span>PROJECTS</span>
                     </div>
-
+                    <hr className="vLmin" />
                     <Project
                         img={icon}
                         name={'PROSJEKT'}
                         descript={'Mitt første prosjekt'}
                     />
+
+                    <hr className="vLmin" />
 
                     <Project
                         img={img}
                         name={'PROSJEKT'}
                         descript={'Mitt første prosjekt'}
                     />
-
+                    <hr className="vLmin" />
                     <Project
                         img={icon}
                         name={'PROSJEKT'}
                         descript={'Mitt første prosjekt'}
                     />
-
+                    <hr className="vLmin" />
                     <Project
                         img={img}
                         name={'PROSJEKT'}
                         descript={'Mitt første prosjekt'}
                     />
-
+                    <hr className="vLmin" />
                     <Project
                         img={icon}
                         name={'PROSJEKT'}
                         descript={'Mitt første prosjekt'}
                     />
+                    <hr className="vLmin" />
                     <hr className="vL" />
                 </div>
             </section>
