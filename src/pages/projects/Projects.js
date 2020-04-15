@@ -17,13 +17,41 @@ const Projects = () => {
             </section>
             <section className="scroll">
                 <div className="project-box">
-                    <Project img={icon} name={'dette er en test'} />
+                    <div className="project-text">
+                        <h3>EXPLORE</h3>
+                        <span>PROJECTS</span>
+                    </div>
 
-                    <Project img={img} name={'tster ut igjen'} />
+                    <Project
+                        img={icon}
+                        name={'PROSJEKT'}
+                        descript={'Mitt første prosjekt'}
+                    />
 
-                    <Project img={icon} name={'dette er en test'} />
+                    <Project
+                        img={img}
+                        name={'PROSJEKT'}
+                        descript={'Mitt første prosjekt'}
+                    />
 
-                    <Project img={img} name={'tster ut igjen'} hr={'btm'} />
+                    <Project
+                        img={icon}
+                        name={'PROSJEKT'}
+                        descript={'Mitt første prosjekt'}
+                    />
+
+                    <Project
+                        img={img}
+                        name={'PROSJEKT'}
+                        descript={'Mitt første prosjekt'}
+                    />
+
+                    <Project
+                        img={icon}
+                        name={'PROSJEKT'}
+                        descript={'Mitt første prosjekt'}
+                    />
+                    <hr className="vL" />
                 </div>
             </section>
         </div>
