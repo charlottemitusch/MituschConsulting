@@ -24,11 +24,26 @@
     margin-right: 250px;
 }
 
-.about {
+.left-text-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-right: -250px;
+}
+
+.about3 {
     width: 450px;
     height: 338px;
     position: absolute;
     right: -250px;
+    top: -50px;
+}
+
+.about1 {
+    width: 450px;
+    height: 338px;
+    position: absolute;
+    right: 200px;
     top: -50px;
 }
 
